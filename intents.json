@@ -1,0 +1,33 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Welcome to RailEnqueryBot! To know how to use reply 'help'.\n "],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye"],
+         "responses": ["Hope to see you again and help you better"],
+         "context_set": ""
+        },
+        {"tag": "help",
+         "patterns": ["help", "help me", "pnr help"],
+         "responses": ["To know about the route of a train reply with 'Route of train (train number) or simply route (train number)\n,TO check PNR status - Send 'PNR status of (PNR Number) or just 'PNR (PNR Number)"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["RailEnqueryBotbot", "I'm RailEnqueryBotbot"],
+         "context_set": ""
+        },
+        {"tag": "train_route",
+         "patterns": ["route", "details of ", "train route of"],
+         "responses": ["TO check route of a train- Send 'Route of train (train number) or simply route (train number) ' "],
+         "context_set": ""
+        },
+        {"tag":"pnr_status",
+         "patterns": ["pnr", "pnr status of", "pnr status"],
+         "responses": ["TO check PNR status - Send 'PNR status of (PNR Number) or just 'PNR (PNR Number) "],
+         "context_set": ""
+        }
+   ]
+}
