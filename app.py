@@ -14,12 +14,9 @@ import pickle
 import re
 import requests
 
-# apikey = '217133cf304763834793bf1e3242fb9e'
-apikey = '0ae5b9edcaf5603fbb27d6a58c8733af'
-
-
-# apikey = '33fe07120a4776ca871077f298e7fb6a'
-# pnr - 6140053357
+# apikey = 'your api key'
+#for api key visit
+#https://indianrailapi.com/
 
 
 def train_route(number):
